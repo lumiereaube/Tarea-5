@@ -1,0 +1,13 @@
+float leon = 0;
+void setup () {
+  size (500,500);
+}
+void draw () {
+  for (int mono= 100; mono<400; mono = mono + 10) {
+      for (int mono1= 100; mono1<390; mono1 = mono1 + 10) {
+    line (mono, leon, mono, 500);
+    line (0, mono, 500, mono);
+    rect (mono-10, mono1, 10, 10);
+  }
+}
+}
